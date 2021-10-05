@@ -1,0 +1,64 @@
+/*------CATEGORY-round tabs------*/
+	
+#container1 {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FAF7EB;
+}
+
+#container1 > div {
+  flex: 0 0 5%;
+}
+figure{
+  border: 1px #cccccc transparent; 
+  padding: 4px; 
+  margin: auto;
+}
+figcaption{
+    color: black;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+/*--------slider-------*/
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: 15px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 100px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
